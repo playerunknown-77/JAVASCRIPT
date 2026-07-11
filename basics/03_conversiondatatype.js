@@ -46,6 +46,59 @@ console.log(null==0);
 console.log(null>=0);
 
 
+// console.log(str3);
+
+
+
+// console.log(null>0);
+// console.log(null==0);
+// console.log(null>=0);
+
+// console.log(undefined==0)
+// console.log(undefined>0)
+// console.log(undefined<0)
+
+//**********************Summary************* */
+//primitive -7 types
+//String,Number,Boolean,Null,Undefined,Symbol,BigInt
+
+//Reference(Non-primitive)
+//Arrays,Object,Functions
+
+const score=100
+const scoreValue=100.3
+
+const isLoggedIn=false
+const outsideTemp=null
+
+//Arrays:
+const heroes=["hello","hi","good"]
+
+let myObj={
+    name: "Arabinda",
+    age: 22
+}
+//********************** */
+//Stack(Primitive)   Heap(Non-primitive)
+
+let myYoutubename="Arabindadotcom"
+let anotherName=myYoutubename
+
+anotherName="ChaiaurCode"
+
+console.log(myYoutubename);
+console.log(anotherName
+);
+
+let userOne ={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+let userTwo=userOne
+userTwo.email="arabinda@ggoogle.com"
+console.log(userOne.email);
+console.log(userTwo,email);
+
 
 
 
