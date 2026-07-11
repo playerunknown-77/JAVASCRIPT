@@ -65,40 +65,41 @@ console.log(null>=0);
 //Reference(Non-primitive)
 //Arrays,Object,Functions
 
-const score=100
-const scoreValue=100.3
+// const score=100
+// const scoreValue=100.3
 
-const isLoggedIn=false
-const outsideTemp=null
+// const isLoggedIn=false
+// const outsideTemp=null
 
 //Arrays:
-const heroes=["hello","hi","good"]
+const heroes = ["hello", "hi", "good"];
 
-let myObj={
+let myObj = {
     name: "Arabinda",
     age: 22
-}
-//********************** */
-//Stack(Primitive)   Heap(Non-primitive)
+};
 
-let myYoutubename="Arabindadotcom"
-let anotherName=myYoutubename
+// Stack (Primitive)   Heap (Non-primitive)
 
-anotherName="ChaiaurCode"
+let myYoutubename = "Arabindadotcom";
+let anotherName = myYoutubename;
+
+anotherName = "ChaiaurCode";
 
 console.log(myYoutubename);
-console.log(anotherName
-);
+console.log(anotherName);
 
-let userOne ={
-    email:"user@google.com",
-    upi:"user@ybl"
-}
-let userTwo=userOne
-userTwo.email="arabinda@ggoogle.com"
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+};
+
+let userTwo = userOne;
+
+userTwo.email = "arabinda@ggoogle.com";
+
 console.log(userOne.email);
-console.log(userTwo,email);
-
+console.log(userTwo.email);
 
 
 
